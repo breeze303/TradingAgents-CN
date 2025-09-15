@@ -36,7 +36,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            breeze3038/TradingAgents-CN
+            breeze3038/tradingagents-cn
             ghcr.io/${{ github.repository }}
           flavor: |
             latest=false
